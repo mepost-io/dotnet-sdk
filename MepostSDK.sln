@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mepost", "Mepost\Mepost.csproj", "{7F355017-3085-4E5D-ACA3-039DE45BFF4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mepost.Test", "Mepost.Test\Mepost.Test.csproj", "{A88DFA72-BE2B-4998-8729-7893DF6EA3E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F355017-3085-4E5D-ACA3-039DE45BFF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F355017-3085-4E5D-ACA3-039DE45BFF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F355017-3085-4E5D-ACA3-039DE45BFF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F355017-3085-4E5D-ACA3-039DE45BFF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88DFA72-BE2B-4998-8729-7893DF6EA3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88DFA72-BE2B-4998-8729-7893DF6EA3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88DFA72-BE2B-4998-8729-7893DF6EA3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88DFA72-BE2B-4998-8729-7893DF6EA3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

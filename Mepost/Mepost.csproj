@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Mepost SDK</Title>
+        <Description>A .NET SDK for interacting with the Mepost API, enabling developers to easily integrate Mepost's email services into their applications.</Description>
+        <Copyright>© 2024 Mepost</Copyright>
+        <PackageProjectUrl>https://docs.mepost.io/</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mepost-io/dotnet-sdk</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Mepost, API, SDK, Email, .NET</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageIcon>logo.png</PackageIcon>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="logo.png" Pack="true" PackagePath="\"/>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
